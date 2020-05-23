@@ -12,7 +12,7 @@ class StringTestCase(unittest.TestCase):
 
 	def test_count(self):
 		data = 'this is a string'
-		self.assertEqual(data.count('i'), 3)
+		self.assertEqual(data.count('is'), 2)
 
 
 if __name__ == '__main__':
